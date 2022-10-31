@@ -35,6 +35,9 @@ Ultimately, all of these aspects combine together to present issues concerning a
 
 ## Dataset
 
+| Data File | Observations | Variables |
+| --------- | ------------ | --------- |
+| Pregnancies, Births and Abortions in the United States: National and State Trends by Age | 913 | 103 |
 
 ## Expected Implications
 
