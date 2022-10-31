@@ -1,4 +1,5 @@
 ### Post-Roe Impacts on America
+---
 Erica Huynh (erihuynh@uw.edu), Michelle Kim (mkim45@uw.edu), Jasmine Vuong (jasvu@uw.edu)
 INFO 201 AH: Group 7 - University of Washington
 Autumn 2022
