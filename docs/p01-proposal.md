@@ -52,14 +52,29 @@ Isaac Maddow-Zimet, Kathryn Kost, and Sean Finn collected the data in 2020 to br
 Based on our research questions, the data could provide possible implications for stakeholders as it helps raise awareness about the inaccessibility of abortion rights and predict future trends of pregnancy, birth, and abortion. Abortion has always been a controversial issue and although everyone does not necessarily have to agree upon the same idea, specific statistics on the indices of pregnancy, birth, and abortion could encourage more open discussions and help people to better understand various consequences that could arise to women today and the future. Women and others who can become pregnant can use this data to get new information about how people’s reproductive lives have changed over the decades. In addition, journalists who report on abortion can use this data to predict future trends of pregnancy, birth, and abortion to support their articles. By making this data accessible, more people can realize their rights and have access to the resources they need to protect themselves. 
 
 ## Limitations
-
+Some limitations from the data are missing information and lack of data about racial disparities in pregnancy, birth and abortion. First of all, the data only includes statistics that cover the period from 1973 to 2017, which leaves us with no information of statistics from 2018 to 2022. Missing information can limit our progress of discovering trends of people’s reproductive lives as the data only include past statistics and not current statistics. In order to include recent data, we will try to do some additional research about current statistics. Additionally, the other limitation is that the data lacks information about racial disparities. Since the data we present focuses on documenting pregnancy, birth and abortion rates over time and by age-group, data on abortion by race and ethnicity are limited. According to our research answers, mortality from childbirth is significantly higher in Black women. However, with this data, it will be challenging to understand different impacts abortion has on different races. To improve, we will research about the different rates of pregnancy, birth and abortion of different races and combine the datasets. 
 
 ---
-## Acknowledgements
-
-
 ## References
+*After Roe Fell: Abortion Laws by State.* Center for Reproductive Rights. (2022, August 25). Retrieved October 31, 2022, from     
+  https://reproductiverights.org/maps/abortion-laws-by-state/ 
+  
+Brangham, W. (2022, September 15). *Conservative states continue to restrict abortion following overturn of Roe v. Wade.* PBS. Retrieved October 31, 2022, from 
+  https://www.pbs.org/newshour/show/conservative-states-continue-to-restrict-abortion-following-overturn-of-roe-v-wade 
+  
+Cambell, J. (2019, May 6). *This Is How Much It Costs to Be a New Mom in Your State.* https://www.move.org/cost-to-be-a-new-mom-by-state/
 
+Housman, P. (2022, June 29). *Roe v Wade Overturned: What It Means, What’s Next.* https://www.american.edu/cas/news/roe-v-wade-overturned-what-it-means-whats-next.cfm
+
+Kekatos, M. (2022, June 27). *More than 150,000 births could occur in the US every year following the reversal of Roe v. Wade, report predicts.* 
+  https://abcnews.go.com/Health/150000-births-occur-us-year-reversal-roe-wade/story?id=85795552 
+  
+Maddow-Zimet et al. (2020). *Pregnancies, Births and Abortions in the United States: National and State Trends by Age [Dataset].* https://osf.io/td7mk 
+
+Ortutay, B. (2022, June 29). *Why some fear that big tech data could become a tool for abortion surveillance.* PBS. Retrieved October 31, 2022, from 
+https://www.pbs.org/newshour/economy/why-some-fear-that-big-tech-data-could-become-a-tool-for-abortion-surveillance 
+  
+*Q&A: Access to abortion is a human right.* Human Rights Watch. (2022, July 5). Retrieved October 31, 2022, from https://www.hrw.org/news/2022/06/24/qa-access-abortion-human-right
 
 ## Appendix A: Questions:
-
+N/A
