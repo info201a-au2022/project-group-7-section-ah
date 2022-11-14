@@ -3,7 +3,10 @@ library("dplyr")
 
 abortion <- read.csv("https://raw.githubusercontent.com/info201a-au2022/project-group-7-section-ah/main/data/NationalAndStatePregnancy_PublicUse.csv")
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> refs/remotes/origin/main
 summary_info <- list()
 summary_info$abortionratetotal_max_value <- abortion %>%
   filter(abortionratetotal == max(abortionratetotal, na.rm = T)) %>%

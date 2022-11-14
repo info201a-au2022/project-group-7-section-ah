@@ -25,6 +25,16 @@ abortion_birth_plot <- ggplot() +
   scale_colour_manual(name="Key", values=c("pink", "orange"))
 print(abortion_birth_plot)
   
+###########################
+##### CHART ANALYSIS ######
+###########################
 
+#The chart helps us further understand and compare how birthrates and abortion rates in America have changed throughout the years 
+#since Roe v. Wade was passed. Looking closely into the chart, it reveals that there has been a noticeable decrease in both birthrate
+#and abortion rate since Roe v. Wade was put into place. We predict that one of the reasons for the decrease was due to the higher
+#usage and greater access to contraceptives. Additionally, there is a noticeable increase in birthrates starting at the year 2000 and 
+#peaking around 2005-2007. During the year 2008 is when birthrates start to decline at a steeper rate after its peak. A notable event
+#happening in America during this time was the Recession. We predict that because of the Recession, less people wanted or did not 
+#have the resources to be able to have kids. 
 
 
