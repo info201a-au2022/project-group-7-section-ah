@@ -78,14 +78,14 @@ ggplot(pregnancy_rates,
   geom_point(data = pregnancy_rates, aes(color = "Individual Rates")) +
   labs(color = "Key", x = "Age Ranges", y = "Pregnancy Rate (percentage)") +
   scale_color_manual(values = c("red", "black")) +
-  geom_point(aes(x = 1,y = avg_preg_lt15), color = "red") +
-  geom_point(aes(x = 2,y = avg_preg_1517), color = "red") +
-  geom_point(aes(x = 3,y = avg_preg_1819), color = "red") +
-  geom_point(aes(x = 4,y = avg_preg_2024), color = "red") +
-  geom_point(aes(x = 5,y = avg_preg_2529), color = "red") +
-  geom_point(aes(x = 6,y = avg_preg_3034), color = "red") +
-  geom_point(aes(x = 7,y = avg_preg_3539), color = "red") +
-  geom_point(aes(x = 8,y = avg_preg_40plus), color = "red") +
+  geom_point(aes(x = 1, y = avg_preg_lt15), color = "red") +
+  geom_point(aes(x = 2, y = avg_preg_1517), color = "red") +
+  geom_point(aes(x = 3, y = avg_preg_1819), color = "red") +
+  geom_point(aes(x = 4, y = avg_preg_2024), color = "red") +
+  geom_point(aes(x = 5, y = avg_preg_2529), color = "red") +
+  geom_point(aes(x = 6, y = avg_preg_3034), color = "red") +
+  geom_point(aes(x = 7, y = avg_preg_3539), color = "red") +
+  geom_point(aes(x = 8, y = avg_preg_40plus), color = "red") +
   ggtitle("Rate of Pregnancy Given Age") +
   theme(plot.title = element_text(hjust = 0.5))
 
