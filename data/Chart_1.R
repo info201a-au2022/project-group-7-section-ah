@@ -26,7 +26,5 @@ abortion_birth_plot <- ggplot() +
 print(abortion_birth_plot)
   
 
-  # d
-
 
 
