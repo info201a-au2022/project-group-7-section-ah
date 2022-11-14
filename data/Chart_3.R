@@ -86,9 +86,21 @@ ggplot(pregnancy_rates,
   geom_point(aes(x = 6, y = avg_preg_3034), color = "red") +
   geom_point(aes(x = 7, y = avg_preg_3539), color = "red") +
   geom_point(aes(x = 8, y = avg_preg_40plus), color = "red") +
-  ggtitle("Rate of Pregnancy Given Age") +
-  theme(plot.title = element_text(hjust = 0.5))
+  ggtitle("Rate of Pregnancy Given Age") 
 
 
+###########################
+##### CHART ANALYSIS ######
+###########################
+
+# This chart is necessary in identifying the age ranges that had higher rates of
+# pregnancy. As a result, this helps us answer questions concerning what age
+# ranges will most likely be impacted by abortion restrictions. By gaining this
+# information, we are able to possibly predict current statistics given Roe v.
+# Wade's overturn, causing restricted abortions. It seems that pregnancy rates
+# are higher among people in their mid to late twenties, meaning that these rates
+# may decrease in the future because these pregnancies may not have been planned.
+# Consequently, less people may want to get pregnant because the option of an
+# abortion may not be viable in their state given current circumstances.
 
 
