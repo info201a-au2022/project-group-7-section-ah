@@ -26,7 +26,6 @@ ggplot(abortion_states, aes(fill=state, y=abortionratetotal, x=year)) +
   xlab("Year") +
   ylab("Total abortion rate among women aged 15 to 44") 
 
-
 #Descriptive Paragraph
 #The purpose of this bar graph is to compare the difference in evolution of abortion rates 
 #between Washington and Texas by years.This is important because through this visualization, 
@@ -46,11 +45,6 @@ ggplot(abortion_states, aes(fill=state, y=abortionratetotal, x=year)) +
 #information, people can recognize that the controversy of abortion presents a threat to pregnant 
 #women seeking abortions as multiple groups within each state is working to enact legislations 
 #to ban abortion. 
-
- 
-
-
-
 
 
 
