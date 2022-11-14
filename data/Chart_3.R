@@ -99,7 +99,7 @@ ggplot(pregnancy_rates,
 # information, we are able to possibly predict current statistics given Roe v.
 # Wade's overturn, causing restricted abortions. It seems that pregnancy rates
 # are higher among people in their mid to late twenties, meaning that these rates
-# may decrease in the future because these pregnancies may have not been planned.
+# may decrease in the future because these pregnancies may not have been planned.
 # Consequently, less people may want to get pregnant because the option of an
 # abortion may not be viable in their state given current circumstances.
 

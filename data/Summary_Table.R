@@ -129,4 +129,6 @@ summary_table <- abortion %>%
 # among people in their mid-to-late twenties. When comparing pregnancy rates
 # between Texas, an abortion restricted state, and Washington, a non-restricted
 # state, the numbers seem to be higher overall. This likely stems from their 
-# lack of sex education and contraceptive options compared to Washington state. 
+# lack of sex education and contraceptive options compared to Washington state.
+# Ultimately, this table will summarize the key ideas of the effects from Roe
+# v. Wade's court case decision.
