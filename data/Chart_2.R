@@ -43,8 +43,10 @@ ggplot(abortion_states, aes(fill=state, y=abortionratetotal, x=year)) +
 #abortion. As people can discover the states’ differing viewpoints based on the difference of 
 #abortion rates, people can also realize how a lot of groups within both states are striving 
 #to overturn Roe v. Wade as the overall abortion for both states are decreasing. Through this 
-#information, people can recognize how both states are still facing controversy regarding 
-#abortion as multiple groups are working to enact legislations that prohibits women from abortion. 
+#information, people can recognize that the controversy of abortion presents a threat to pregnant 
+#people seeking abortions as multiple groups within each state is working to enact legislations 
+#to ban abortion. 
+
  
 
 
