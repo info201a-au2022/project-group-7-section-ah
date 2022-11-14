@@ -114,6 +114,8 @@ summary_table <- abortion %>%
          -versiondate) %>%
   filter(year == "2017")
 
+write.csv(summary_table, "C:\\Users\\erica\\OneDrive\\Documents\\UW 2022 - 2023\\Fall Quarter\\INFO 201\\summary_table.csv", row.names = FALSE)
+
 
 ###################################
 ##### SUMMARY TABLE ANALYSIS ######
