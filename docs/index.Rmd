@@ -28,3 +28,8 @@ With all of this in mind, more abortion restrictions may lead to higher birth an
 source("../source/summary_info.R")
 summary_info
 ```
+
+```{r Table, echo = FALSE}
+library(knitr)
+source("https://raw.githubusercontent.com/info201a-au2022/project-group-7-section-ah/main/source/summary_table.csv")
+```
