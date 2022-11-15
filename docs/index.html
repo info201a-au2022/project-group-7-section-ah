@@ -357,7 +357,6 @@ display: none;
 </div>
 
 
-<pre class="r"><code>knitr::opts_chunk$set(echo = TRUE)</code></pre>
 <div id="dynamic-paragraph" class="section level2">
 <h2>Dynamic Paragraph</h2>
 <p>Throughout this analysis, we used one dataset describing rates of
@@ -398,6 +397,39 @@ the limited access across America, especially in abortion-restricted
 states. The values gathered from this dataset will help our group in
 creating our final deliverable in spreading awareness about the impact
 of Roe v. Wade’s court case decision.</p>
+<pre class="r"><code>source(&quot;../source/summary_info.R&quot;)</code></pre>
+<pre><code>## 
+## Attaching package: &#39;dplyr&#39;</code></pre>
+<pre><code>## The following objects are masked from &#39;package:stats&#39;:
+## 
+##     filter, lag</code></pre>
+<pre><code>## The following objects are masked from &#39;package:base&#39;:
+## 
+##     intersect, setdiff, setequal, union</code></pre>
+<pre class="r"><code>summary_info</code></pre>
+<pre><code>## $abortionratetotal_max_value
+##   year state abortionratetotal
+## 1 1988    DC              79.3
+## 
+## $abortionratetotal_min_value
+##   year state abortionratetotal
+## 1 2017    UT               4.5
+## 
+## $birthratetotal_max_value
+##   year state birthratetotal
+## 1 2007    UT           95.7
+## 
+## $birthratetotal_min_value
+##   year state birthratetotal
+## 1 2017    VT           49.5
+## 
+## $pregnancyratetotal_max_value
+##   year state pregnancyratetotal
+## 1 1988    DC              159.7
+## 
+## $pregnancyratetotal_min_value
+##   year state pregnancyratetotal
+## 1 2017    NH               70.2</code></pre>
 </div>
 
 
