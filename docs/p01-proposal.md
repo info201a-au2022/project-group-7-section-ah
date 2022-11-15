@@ -53,6 +53,7 @@ Based on our research questions, the data could provide possible implications fo
 
 ## Limitations
 Some limitations from the data are missing information and lack of data about racial disparities in pregnancy, birth and abortion. First of all, the data only includes statistics that cover the period from 1973 to 2017, which leaves us with no information of statistics from 2018 to 2022. Missing information can limit our progress of discovering trends of people’s reproductive lives as the data only include past statistics and not current statistics. In order to include recent data, we will try to do some additional research about current statistics. Another limitation would be that there are some missing pieces of data in the data set labeled "NA." Having missing data restricts us with less information to work with and makes our findings less accurate than what they could be. The only way we could think of addressing this limitation is keeping in mind when answering our research questions that our data might be slightly inaccurate or not represent the whole picture of what we are trying to find. 
+
 ---
 ## References
 *After Roe Fell: Abortion Laws by State.* Center for Reproductive Rights. (2022, August 25). Retrieved October 31, 2022, from     
