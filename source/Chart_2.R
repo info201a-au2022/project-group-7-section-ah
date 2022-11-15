@@ -36,21 +36,12 @@ ggplot(abortion_states, aes(fill=state, y=abortionratetotal, x=year)) +
 #more women in Washington had higher access to abortion than women in Texas.Thus, it can be 
 #concluded that Washington state is highly supportive of abortion while Texas is not as 
 #supportive since the overall abortion rates are lower than Washington. Through the disparity 
-#of abortion rates, states’ different political stand is also revealed as people could 
-#recognize most Washington residents supports pro-choice that advocates for the right to have 
-#legal abortion, while Texas residents supports pro-life that advocates against the practice of 
-#abortion. As people can discover the states’ differing viewpoints based on the difference of 
-#abortion rates, people can also realize how a lot of groups within both states are striving 
-#to overturn Roe v. Wade as the overall abortion for both states are decreasing. Through this 
-#information, people can recognize that the controversy of abortion presents a threat to pregnant 
-#women seeking abortions as multiple groups within each state is working to enact legislations 
-#to ban abortion. 
-
-
-
-
-
-
-
-
-
+#of abortion rates, states??? different political stand is also revealed as people could recognize
+#most Washington residents supports pro-choice that advocates for the right to have legal abortion,
+#while Texas residents supports pro-life that advocates against the practice of abortion. As
+#people can discover the states??? differing viewpoints based on the difference of abortion 
+#rates, people can also realize how a lot of groups within both states are striving to 
+#overturn Roe v. Wade as the overall abortion for both states are decreasing. Through this 
+#information, people can recognize that the controversy of abortion presents a threat
+#to pregnant people seeking abortions as multiple groups within each state is working 
+#to enact legislations to ban abortion. 

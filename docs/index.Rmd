@@ -1,6 +1,6 @@
 ---
 title: "Post-Roe Impacts on America"
-author: "Erica Huynh, Jasmine Vuong, Michelle Kim"
+author: "Erica Huynh (erihuynh@uw.edu), Michelle Kim (mkim45@uw.edu), Jasmine Vuong (jasvu@uw.edu)"
 date: "11/14/2022"
 output: html_document
 ---
@@ -9,9 +9,14 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+## Summary Information Calculations
+
+```{r}
+source("../source/summary_info.R")
+summary_info
+```
 
 ## Dynamic Paragraph
-
 
 Throughout this analysis, we used one dataset describing rates of abortion, birth, pregnancy, etc. By gathering these values, we will be able to thoroughly present the impact of Roe v. Wade’s court case decision to decriminalize abortion. The data presented in the following values are from women aged 14 to 54 during 1978 to 2017.
 
@@ -23,16 +28,26 @@ From pregnancy rates, the highest rate was in 1988 with a rate of 159.7, while t
 
 With all of this in mind, more abortion restrictions may lead to higher birth and pregnancy rates, leading to lower abortion rates due to the limited access across America, especially in abortion-restricted states. The values gathered from this dataset will help our group in creating our final deliverable in spreading awareness about the impact of Roe v. Wade’s court case decision.
 
-
-```{r}
-source("../source/summary_info.R")
-summary_info
+## Table of Summary Information
+```{r Summary_Table, echo = FALSE}
+read.csv("https://raw.githubusercontent.com/info201a-au2022/project-group-7-section-ah/main/source/summary_table.csv")
 ```
 
+## Chart 1:
+```{r Chart_1,echo = FALSE}
+knitr::include_graphics("../source/Chart_1.png", error = FALSE)
+```
+The chart helps us further understand and compare how birthrates and abortion rates in America have changed throughout the years since Roe v. Wade was passed. Looking closely into the chart, it reveals that there has been a noticeable decrease in both birthrate and abortion rate since Roe v. Wade was put into place. We predict that one of the reasons for the decrease was due to the higher usage and greater access to contraceptives. Additionally, there is a noticeable increase in birthrates starting at the year 2000 and peaking around 2005-2007. During the year 2008 is when birthrates start to decline at a steeper rate after its peak. A notable event happening in America during this time was the Recession. We predict that because of the Recession, less people wanted or did not have the resources to be able to have kids. 
 
+## Chart 2:
+```{r Chart_2,echo = FALSE}
+knitr::include_graphics("../source/chart_2_pic.png", error = FALSE)
+```
+The purpose of this bar graph is to compare the difference in evolution of abortion rates between Washington and Texas by years.This is important because through this visualization, people can notice which state supports abortion and which state is more likely to ban abortion. Not only that, people can learn how the rate of abortion is deeply influenced by politics as the opinion on abortion differ from Republicans and Democrats. Going deeper, it is revealed that Washington had higher abortion rate than Texas from 1973 to 2017 which highlights that more women in Washington had higher access to abortion than women in Texas.Thus, it can be concluded that Washington state is highly supportive of abortion while Texas is not as supportive since the overall abortion rates are lower than Washington. Through the disparity of abortion rates, states’ different political stand is also revealed as people could recognize most Washington residents supports pro-choice that advocates for the right to have legal abortion, while Texas residents supports pro-life that advocates against the practice of abortion. As people can discover the states’ differing viewpoints based on the difference of abortion rates, people can also realize how a lot of groups within both states are striving to overturn Roe v. Wade as the overall abortion for both states are decreasing. Through this information, people can recognize that the controversy of abortion presents a threat to pregnant people seeking abortions as multiple groups within each state is working to enact legislations to ban abortion. 
 
+## Chart 3:
 ```{r Chart_3, echo = FALSE}
 knitr::include_graphics("../source/Chart_3.png", error = FALSE)
 ```
-
+This chart is necessary in identifying the age ranges that had higher rates of pregnancy. As a result, this helps us answer questions concerning what age ranges will most likely be impacted by abortion restrictions. By gaining this information, we are able to possibly predict current statistics given Roe v. Wade's overturn, causing restricted abortions. It seems that pregnancy rates are higher among people in their mid to late twenties, meaning that these rates may decrease in the future because these pregnancies may not have been planned. Consequently, less people may want to get pregnant because the option of an abortion may not be viable in their state given current circumstances.
 
