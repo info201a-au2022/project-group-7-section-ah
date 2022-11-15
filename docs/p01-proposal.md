@@ -1,4 +1,5 @@
 # Post-Roe Impacts on America
+# Codename: Roe v. Wade Insights
 Erica Huynh (erihuynh@uw.edu), Michelle Kim (mkim45@uw.edu), Jasmine Vuong (jasvu@uw.edu)
 
 INFO 201 AH: Group 7 - University of Washington
@@ -29,18 +30,17 @@ If data and technology were to intervene in this situation, there are multiple e
 Ultimately, all of these aspects combine together to present issues concerning abortions in America. 
 
 ## Research Questions
-### 1. What are the effects of the overturn of Roe v. Wade?
-The overturn of Roe v. Wade will restrict the rights of millions of women across America. Understanding the impact these restrictions will create, and the challenges that come up from them is essential. For example, according to ABCNews, restricting safe abortions for women will drastically increase birth rates. However, considering the topic of preventing abortions is highly controversial and leads to debate, discussion on the topic is often avoided. Therefore, we must establish common ground that everyone can understand and not necessarily agree upon but at least support. We will address this question by presenting credible data about pregnancy, abortion, and birthrates to encourage a more open discussion on the subject of abortions and an understanding of the impacts of the overturn of Roe v. Wade. 
+### 1. How birthrates and abortion rate changed after the passing of Roe v. Wade?
+The passing of Roe v. Wade allowed for more women to have access to safe abortions. With this given, we wanted to see the impacts Roe v. Wade had for women across America. Specifically looking into birthrates and abortion rates, we can see if the legalization of safe abortions has led to less people being forced into child birth and instead that decisions for their own bodies. This research question is important because we can gain insight into the implementation of Roe v. Wade in hopes that it will further prove why Roe v. Wade should not be outlawed. We will approach this research question by looking at the birthrates and abortion rate after 1973 (when Roe v. Wade was passed), and comparing how their rates have changed throughout the years.
 
-### 2. Who will be most impacted by the overturn of Roe v. Wade? 
-The overturn of Roe v. Wade has impacted the lives of millions of women across America. However, there are disparities regarding the impacts on women of Color. For example, according to American.edu, the mortality from childbirth is significantly higher in Black women. As the overturn of Roe v. Wade increases the number of childbirths, it is crucial to understand who is the most significantly impacted by these decisions and why. We will address this question by finding data on the rate of mortality of Black women caused by childbirth and compare them to the rate of white women. 
+### 2. How have abortion rates changed in both the most abortion supporting state and least supporting state after the passing of Roe v. Wade?
+The topic of abortion has been a highly debated topic between conservative and liberal states, where conservative states are against and liberal states are for abortions. We wanted to compare how abortion rates changed between two states with opposing opinions on the subject and see how those opinions may impact abortion rates. This question is important because by understand how different places in America handle and view abortions, we can understand the impact it can have on abortion rates overall. We will approach this question by comparing the total abortion rates throughout the years between two specific states (one mainly against abortions and one mainly for abortions) after the passing of Roe v. Wade. 
 
-### 3. What economic challenges are created for women with the overturn of Roe v. Wade?
-Not only is it important to understand the impacts of the overturn of Roe v. Wade on women during childbirth, but also to understand how it can impose on their futures. For example, Move.org says the average cost of childbirth and childcare in the first year is over $17,000. These high expenses can be detrimental to many women who cannot afford the expensive costs of having a child, creating many financial challenges for themself and their child. We will address this question by looking into the data of the cost of both childbirth and childcare and see how it has changed overtime. Additionally, we will also look into how minimum wage has changed over the years and compare them to the cost rate of childbirth and childcare.  
-
+### 3. How have pregnancy rates in different age groups been impacted after the passing of Roe v. Wade?
+Without access to abortions, many women who are either not ready or do not want to have a child are forced to having one. A lot of the time, many women are not ready because they are too young and are not able to provide and support for a child. By looking into how the passing of Roe v. Wade and how pregnancy rates have changed throughout the years for different age groups, we can understand which group of women are most likely to be impacted and benefit by having access to safer abortions. We will approach this question by comparing the average pregnancy rates after the passing of Roe v. Wade between specific age groups. 
 
 ## Dataset
-National and State trends showing pregnancy, abortion, and birth rates describe the root effects of the overturn of Roe v. Wade. Through our research questions, we communicate the impact of this reversal. From the data set, birth rates fluctuate slightly, but this new precedent may lead to higher birth rates and lower abortion rates between the different ages. As a result, the data provided may give us insight as to what the base trends of preganancy and abortion are and how this may change over time.
+National and State trends showing pregnancy, abortion, and birth rates describe the root effects the passing of Roe v. Wade. Through our research questions, we communicate the impact of this reversal. From the data set, birth rates fluctuate slightly, but this new precedent may lead to higher birth rates and lower abortion rates between the different ages. As a result, the data provided may give us insight as to what the base trends of pregnancy and abortion are and how this may change over time.
 
 | Data File | Observations | Variables |
 | --------- | ------------ | --------- |
