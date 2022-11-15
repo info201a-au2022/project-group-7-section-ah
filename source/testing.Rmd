@@ -4,7 +4,6 @@ output: html_document
 date: "2022-11-14"
 ---
 
-getwd()
 
 ```{r setup, include=FALSE}
 source("../source/summary_info.R")
