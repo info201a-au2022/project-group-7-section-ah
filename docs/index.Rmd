@@ -26,7 +26,7 @@ Based on the birth rates from women, the highest birth rate was in 2007 with a r
 
 From pregnancy rates, the highest rate was in 1988 with a rate of 159.7, while the lowest rate was in 2017 with a rate of 70.2. With this decrease in pregnancy rates, it tells us that there are less people pregnant as of recent dates, impacting the age groups from 20-29 years old given Graph 3. This change between rates signifies the possibility of Roe’s decision as more people may be choosing to have abortions, therefore lowering the pregnancy rate. The overturn of this case in 2022 may lead to a spike of higher pregnancy rates in the future because of lack of resources for pregnant people who do not want to be pregnant anymore, affecting these numbers.
 
-With all of this in mind, more abortion restrictions may lead to higher birth and pregnancy rates, leading to lower abortion rates due to the limited access across America, especially in abortion-restricted states. The values gathered from this dataset will help our group in creating our final deliverable in spreading awareness about the impact of Roe v. Wade’s court case decision.
+With all of this in mind, more abortion restrictions may lead to higher birth and pregnancy rates, leading to lower abortion rates due to the limited access across America, especially in abortion-restricted states. The values gathered from this dataset will help our group in creating our final deliverable in spreading awareness about the impact of Roe v. Wade’s court case decision. 
 
 ## Table of Summary Information
 ```{r Summary_Table, echo = FALSE}
