@@ -15,6 +15,8 @@ ui <- fluidPage(
              tabPanel("Our Mission", 
                       h1("Our Mission"),
                       
+                      HTML('<center><img src="abortion_photo.jpg" width="300"></center>'),
+                      
                       h3("Problem Domain"),
                       p("Throughout this project, our group aimed to address the 
                         effectiveness of the court case Roe v. Wade in 1973 given 
@@ -50,7 +52,7 @@ ui <- fluidPage(
                         higher birth and pregnancy rates, leading to lower abortion 
                         rates due to the limited access across America, especially 
                         in abortion-restricted states."),
-                      img(src = "heart_pic.png")),
+                      ),
              tabPanel("Summary", "LOL"),
              tabPanel("Birth & Abortion Rates", "Hello"),
              tabPanel("Total Abortion Rate Comparisons", "Hello again"),
