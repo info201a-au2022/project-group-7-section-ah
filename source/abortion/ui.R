@@ -102,13 +102,71 @@ abt_rate_compare_page <- tabPanel("Abortion Rate Comparisons")
 #######################################
 ##### preg_rate_age_page variable #####
 #######################################
-preg_rate_age_page <- tabPanel("Pregnancy Rates & Age")
+preg_rate_age_page <- tabPanel("Pregnancy & Abortion Rates",
+                               fluidPage(
+                                 hr(),
+                                 h1(strong("What's the importance of the correlation between pregnancy and abortion
+                      rates given different age ranges?")),
+                                 p("When navigating to plot different age ranges, there seems to be a pattern of 
+    pregnancy rates within younger age groups of less than 15 years old to 29 
+    years old decreasing over time. Similarly, abortion rates have generally 
+    fluctuated, but have had a steady decline as of recent years. This leads us 
+    to infer that other contraceptive methods have been used in place of abortions 
+    given the rise in restrictions against it, especially after the year 2005. 
+    Between these two variables, they correlate in the way they have similar 
+    patterns, but patterns of abortion rates are on a smaller scale. Ultimately, 
+    with the passing of Roe in 1973, pregnancy rates have reduced greatly over time 
+    while abortion rates have increased, but are now decreasing. This is possibly 
+    due to stricter abortion restrictions in certain states, but people have 
+    generally taken advantage of this privilege in the late 1900s after Roe."),
+                                 fluidRow(
+                                   column(4,
+                                          h3("Pregnancy Rates"),
+                                          selectInput(inputId = "preg",
+                                                      label = "Select an age range:",
+                                                      list("Ages Less Than 15 Years Old",
+                                                           "Ages 15 - 17 Years Old",
+                                                           "Ages 18 - 19 Years Old",
+                                                           "Ages 20 - 24 Years Old",
+                                                           "Ages 25 - 29 Years Old",
+                                                           "Ages 30 - 34 Years Old",
+                                                           "Ages 35 - 39 Years Old",
+                                                           "Ages Greater Than 40 Years Old")),
+                                          br(),
+                                          br(),
+                                          br(),
+                                          br(),
+                                          br(),
+                                          br(),
+                                          br(),
+                                          br(),
+                                          br(),
+                                          br(),
+                                          h3("Abortion Rates"),
+                                          selectInput(inputId = "abt",
+                                                      label = "Select an age range:",
+                                                      list("Ages Less Than 15 Years Old",
+                                                           "Ages 15 - 17 Years Old",
+                                                           "Ages 18 - 19 Years Old",
+                                                           "Ages 20 - 24 Years Old",
+                                                           "Ages 25 - 29 Years Old",
+                                                           "Ages 30 - 34 Years Old",
+                                                           "Ages 35 - 39 Years Old",
+                                                           "Ages Greater Than 40 Years Old"))
+                                          
+                                   ),
+                                   column(8, 
+                                          plotlyOutput("plot_preg"),
+                                          plotlyOutput("plot_abt"))
+                                 ),
+                               ))
+
 
 
 ######################################
 ##### final_report_page_variable #####
 ######################################
-final_report_page <- tabPanel("Final Report",
+final_report_page <- tabPanel("Report",
                               h1("Summary"))
 
 
