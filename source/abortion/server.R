@@ -88,7 +88,7 @@ server <- function(input, output) {
   
   #End of Erica's page
   
-<<<<<<< HEAD
+
   #Michelle's page
   
   plot <- function(state, year) {
@@ -106,18 +106,8 @@ server <- function(input, output) {
   })
   
 #End of Michelle's page
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-=======
+
+
   
   ## Jasmine's page
   birth_data <- reactive({
@@ -156,5 +146,4 @@ server <- function(input, output) {
   })
   
   #End of Jasmine's page
->>>>>>> refs/remotes/origin/main
 }
