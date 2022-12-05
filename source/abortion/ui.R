@@ -92,7 +92,7 @@ home_page <- tabPanel("Home",
 ##### abt_birth_page variable #####
 ########################################
 abt_birth_page <- tabPanel("Abortion & Births",
-                           fluidPage(h1(strong("How how birthrates and abortion rates have changed after the passing of Roe")),
+                           fluidPage(h1(strong("How have birthrates and abortion rates changed after the passing of Roe")),
                                      p("Summary here..."),
                                      selectInput(inputId = "birth",
                                                  label = "Select a state for birthrate graph:",
