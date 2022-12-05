@@ -1,0 +1,13 @@
+name: post-roe-insights
+title: post-roe-insights
+username:
+account: erihuynh
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 7813296
+bundleId: 6592078
+url: https://erihuynh.shinyapps.io/post-roe-insights/
+when: 1670221265.20971
+lastSyncTime: 1670221265.20973
+asMultiple: FALSE
+asStatic: FALSE

@@ -92,7 +92,7 @@ home_page <- tabPanel("Home",
 ##### abt_birth_page variable #####
 ########################################
 abt_birth_page <- tabPanel("Abortion & Births",
-                           fluidPage(h1(strong("How have birthrates and abortion rates changed after the passing of Roe")),
+                           fluidPage(h1(strong("How have birthrates and abortion rates changed after the passing of Roe?")),
                                      p("Summary here..."),
                                      selectInput(inputId = "birth",
                                                  label = "Select a state for birthrate graph:",
@@ -254,18 +254,24 @@ preg_rate_age_page <- tabPanel("Pregnancy & Abortions",
                                  hr(),
                                  h1(strong("What's the importance of the correlation between pregnancy and abortion
                       rates given different age ranges?")),
-                                 p("When navigating to plot different age ranges, there seems to be a pattern of 
-    pregnancy rates within younger age groups of less than 15 years old to 29 
-    years old decreasing over time. Similarly, abortion rates have generally 
-    fluctuated, but have had a steady decline as of recent years. This leads us 
-    to infer that other contraceptive methods have been used in place of abortions 
-    given the rise in restrictions against it, especially after the year 2005. 
-    Between these two variables, they correlate in the way they have similar 
-    patterns, but patterns of abortion rates are on a smaller scale. Ultimately, 
-    with the passing of Roe in 1973, pregnancy rates have reduced greatly over time 
-    while abortion rates have increased, but are now decreasing. This is possibly 
-    due to stricter abortion restrictions in certain states, but people have 
-    generally taken advantage of this privilege in the late 1900s after Roe."),
+                                 p("When navigating to plot different age ranges, 
+                                   there seems to be a pattern of pregnancy rates 
+                                   within younger age groups of less than 15 years 
+                                   old to 29 years old decreasing over time. Similarly, 
+                                   abortion rates have generally fluctuated, but have 
+                                   had a steady decline as of recent years. More 
+                                   specifically, abortion rates seemed to reach 
+                                   high numbers following the passage of Roe, but 
+                                   ultimately decreased in the 2000’s. This leads 
+                                   us to infer that other contraceptive methods 
+                                   have been used in place of abortions given the 
+                                   rise in abortion restrictions, especially after 
+                                   the year 2005. These other methods would also 
+                                   explain decreasing pregnancy rates in correlation 
+                                   to abortion rates. Therefore, the open privilege 
+                                   in early years for all ages were most helpful in 
+                                   promoting safe abortions and timely pregnancies in 
+                                   comparison to more current data."),
                                  fluidRow(
                                    column(4,
                                           h3("Pregnancy Rates"),
