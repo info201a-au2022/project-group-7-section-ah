@@ -91,7 +91,7 @@ home_page <- tabPanel("Home",
 ########################################
 ##### abt_birth_page variable #####
 ########################################
-abt_birth_page <- tabPanel("Abortion & Birth Rates",
+abt_birth_page <- tabPanel("Abortion & Births",
                            fluidPage(
                              selectInput(inputId = "birth",
                                          label = "Select a state for birthrate graph:",
@@ -209,7 +209,7 @@ abt_birth_page <- tabPanel("Abortion & Birth Rates",
 ##### abt_rate_compare_page variable #####
 ##########################################
 abt_rate_compare_page <- tabPanel(
-  "Abortion Rate in a state",
+  "Abortions within a state",
   h1(strong("How have abortion rates changed in each state?")),
   p("Through this widget, it is revealed that the total abortion rate is going down 
   overall. Despite a decision of the Supreme court that gave the right to have an 
@@ -248,7 +248,7 @@ abt_rate_compare_page <- tabPanel(
 #######################################
 ##### preg_rate_age_page variable #####
 #######################################
-preg_rate_age_page <- tabPanel("Pregnancy & Abortion Rates",
+preg_rate_age_page <- tabPanel("Pregnancy & Abortions",
                                fluidPage(
                                  hr(),
                                  h1(strong("What's the importance of the correlation between pregnancy and abortion
@@ -307,6 +307,37 @@ preg_rate_age_page <- tabPanel("Pregnancy & Abortion Rates",
                                  ),
                                ))
 
+#################################
+##### summary_page_variable #####
+#################################
+summary_page <- tabPanel("Summary",
+                         hr(),
+                         h1("Summary Takeaways"),
+                         p("Throughout our analysis of abortions across the United States,
+                           we came to realize multiple conclusions."),
+                         p("Given Roe v. Wade's overturn in 2022 of this year, abortion rates
+                           were already on the decline after around 2005. This likely explains
+                           the decision to overturn this court case as we have seen
+                           the appropriate data to prove this. For example, California's
+                           abortion rates took a deep decline as shown here:"),
+                         img(src="pic1.png", height="100%", width="100%"),
+                         p("We also needed to remember how the economic recession in 2008
+                           may have impacted pregnancy and birth rates given the social
+                           climate at the time. Therefore, while we concluded that these
+                           rates may have declined as of recent years, we still must
+                           keep this in mind. However, these rates can still be useful
+                           to gain a general understanding of how these rates may have impacted
+                           others."),
+                         p("Ultimately, abortion rates were generally higher within 
+                          younger age groups due to an increas of accessibility of them 
+                          after the decision of Roe v. Wade. With it's overturn, 
+                          there may be missing data of abortions in the future since
+                          different states will now have different abortion regulations. 
+                          As a result, data 
+                          past 2022 may not be as accurate and we should focus on the data
+                           we have provided to prove a general idea of Roe's impact on
+                           American society."))
+
 
 
 ######################################
@@ -329,6 +360,7 @@ ui <- fluidPage(
              abt_birth_page,
              abt_rate_compare_page,
              preg_rate_age_page,
+             summary_page,
              final_report_page
   )
 )
