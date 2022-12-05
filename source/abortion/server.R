@@ -88,4 +88,42 @@ server <- function(input, output) {
   
   #End of Erica's page
   
+  
+  ## Jasmine's page
+  birth_data <- reactive({
+    req(input$birth)
+    
+    filtering_birth <- abortion %>% 
+      summarize(birthratetotal, year, state) %>%
+      filter(state %in% input$birth)
+  })
+  
+  abortion_data <- reactive({
+    req(input$abortion)
+    
+    filtering_birth <- abortion %>% 
+      summarize(abortionratetotal, year, state) %>%
+      filter(state %in% input$abortion)
+  })
+  
+  output$plot_birth <- renderPlotly({
+    birth_graph <- ggplot(birth_data(), aes(x = year, y = birthratetotal)) + 
+      geom_bar(stat = "sum") +
+      ggtitle(paste("Total Birthrates in the State:", input$birth, "(1973 - 2017)")) +
+      xlab("Year") +
+      ylab("Birthrate")
+    ggplotly(birth_graph)
+  })
+  
+  output$plot_abortion <- renderPlotly({
+    abortion_graph <- ggplot(abortion_data(), aes(x = year, y = abortionratetotal)) + 
+      geom_bar(stat = "sum") +
+      ggtitle(paste("Total Abortion Rates in the State:", input$abortion, "(1973 - 2017)")) +
+      xlab("Year") +
+      ylab("Abortion Rate")
+    
+    ggplotly(abortion_graph)
+  })
+  
+  #End of Jasmine's page
 }
