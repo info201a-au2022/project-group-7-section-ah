@@ -1,0 +1,11 @@
+library("dplyr")
+library("tidyverse")
+library("ggplot2")
+library("shiny")
+library("reshape2")
+
+source("app_ui.R") 
+source("app_server.R") 
+
+# Run the application  
+shinyApp(ui = ui, server = server)

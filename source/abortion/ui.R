@@ -96,8 +96,41 @@ abt_birth_page <- tabPanel("Abortion & Birth Rates")
 ##########################################
 ##### abt_rate_compare_page variable #####
 ##########################################
-abt_rate_compare_page <- tabPanel("Abortion Rate Comparisons")
+abt_rate_compare_page <- tabPanel(
+  "Abortion Rate in a designated state",
+  h1(strong("How have abortion rates changed in each state?")),
+  p("Through this widget, it is revealed that the total abortion rate is going down 
+  overall. Despite a decision of the Supreme court that gave the right to have an 
+  abortion, the abortion rate is decreasing in all states highlighting the low 
+  accessibility of abortion. One potential reason that makes people have low access to 
+  abortion is the enactment of legislation that limits the ability of abortion. 
+  For example, there seems to be a sudden drop in the abortion rate in Texas in 2013 
+  as the abortion rate dropped from 12 to 10. This is because, in 2013, Texas passed a 
+  bill that enacted restrictions on the delivery of abortion services by requiring doctors 
+  to obtain admitted privileges at a local hospital and by requiring clinics to have 
+  costly hospital-grade facilities. With this data, people can assume that although the 
+  passing of Roe allowed people to have access to abortion, stricter abortion restrictions 
+  in most states have facilitated the downturn of abortion rate, creating an excessive 
+  burden for women seeking an abortion. 
 
+"),
+  br(),
+  br(),
+  sidebarLayout( 
+    sidebarPanel( 
+      selectInput( 
+        inputId = "state", label = "Select State:",
+        choices = unique(as.character(abortion$state)), selected = NULL
+      ),
+      sliderInput( 
+        inputId = "year", label = "Select Year:",
+        min = 1973, max = 2017, value = c(1973, 2017)
+      )), 
+    mainPanel( 
+      plotlyOutput("chart_1") 
+    )
+  )
+)
 
 #######################################
 ##### preg_rate_age_page variable #####

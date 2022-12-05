@@ -88,4 +88,32 @@ server <- function(input, output) {
   
   #End of Erica's page
   
+  #Michelle's page
+  
+  plot <- function(state, year) {
+    df <- abortion %>%
+      filter(state %in% c(input$state)) %>%
+      filter(`year` >= c(input$year[1]) & `year` <= c(input$year[2]))
+    return(df)
+  } 
+  
+  
+  output$chart_1 <- renderPlotly({
+    ggplotly(ggplot(plot(c(input$state) & c(input$year)), aes(x = `year`, y = `abortionratetotal`)) +
+               geom_line(color = "purple") +
+               labs(title = "The Total Abortion Rate Among Women aged 15 to 44", x = "year", y = "Total abortion Rate"))
+  })
+  
+#End of Michelle's page
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
 }
