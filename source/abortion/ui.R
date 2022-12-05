@@ -66,7 +66,8 @@ home_page <- tabPanel("Home",
                           to 2017 concerning trends of pregnancies, abortions, 
                           birthrates, etc. We focused on the rates of these categories 
                           among states and ages in order to fully understand Roe’s
-                          impact on our current society."),
+                          impact on our current society. When looking at the rates we compared,
+                          they defined as the number of births/pregnancies/abortions per 1,000 women."),
                           
                           h4("Key Findings"),
                           p("It was found that there were declining abortion rates even
