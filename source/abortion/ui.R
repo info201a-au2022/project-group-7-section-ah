@@ -208,7 +208,7 @@ abt_birth_page <- tabPanel("Abortion & Birth Rates",
 ##### abt_rate_compare_page variable #####
 ##########################################
 abt_rate_compare_page <- tabPanel(
-  "Abortion Rate in a designated state",
+  "Abortion Rate in a state",
   h1(strong("How have abortion rates changed in each state?")),
   p("Through this widget, it is revealed that the total abortion rate is going down 
   overall. Despite a decision of the Supreme court that gave the right to have an 
