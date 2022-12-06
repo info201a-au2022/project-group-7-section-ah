@@ -615,7 +615,50 @@ final_report_page <- tabPanel("Report",
                               p("Jasmine Paste!"),
                               
                               h3("Conclusion"),
-                              p("Erica Paste!"),
+                              p("To conclude our project, we want to reiterate a few 
+                                key points that we hope everyone is able to consider 
+                                deeply. Declining birth and abortion rates as of 
+                                recent years are likely a product of conflicting 
+                                beliefs in the precedent that Roe had set for fifty 
+                                years. While these numbers have continuously fluctuated, 
+                                it is still important to keep in mind how recent trends 
+                                may be a direct result of our environment."),
+                              p("Given these facts, the overall decrease of abortion rate
+                              totals also correlates with decreasing pregnancy rates, 
+                              which seem to be most prominent among younger age groups 
+                              of below 29 years old. While rates were higher after 
+                              the passing of Roe, they gradually dropped into the 
+                              early 2000’s. As mentioned before, this was likely 
+                              a result of more abortion restrictions, but another 
+                              possibility could be due to more promotions of other 
+                              contraceptive methods that were introduced around 
+                              this time. Therefore, the open privilege in early 
+                              years for all ages were most helpful in promoting 
+                              safe abortions and timely pregnancies in comparison 
+                              to more current data."),
+                              p("With all of this in mind, even more abortion 
+                                restrictions such as Roe’s overturn most recently 
+                                may lead to higher birth and pregnancy rates and 
+                                possibly missing data. Since as of 2022, different 
+                                states have different regulations regarding abortions, 
+                                data collection may not be as accurate as datasets 
+                                such as the one we have used due to possible risks 
+                                for the people seeking abortions in abortion restricted 
+                                states. Consequently, analyzing past data may be most 
+                                informative and helpful for future generations to 
+                                understand Roe’s impact on American society despite 
+                                the end of its precedent."),
+                              p("Although we understand others may have differing 
+                                perspectives of abortions and therefore disagree 
+                                with the presentation of our project, we hope 
+                                everyone is able to keep an open mind and consume 
+                                real data such as our own to further evaluate 
+                                their beliefs. Ultimately, safe abortions are 
+                                important and affect the lives of everyone. We 
+                                hope the data we collected and representative 
+                                charts are able to convey the importance of Roe 
+                                v. Wade to guarantee bodily autonomy for all 
+                                despite the current political and social climate."),
                               
                               h3("Acknowledgements"),
                               p("Thank you to Professor Winegarden and our TA, Shinji for
