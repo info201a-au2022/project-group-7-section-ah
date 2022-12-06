@@ -98,7 +98,23 @@ home_page <- tabPanel("Home",
 ########################################
 abt_birth_page <- tabPanel("Abortion & Births",
                            fluidPage(h1(strong("How have birthrates and abortion rates changed after the passing of Roe?")),
-                                     p("Summary here..."),
+                                     p("The data visualization below demonstrates the birth and abortion rates between states
+                                       starting from when Roe v. Wade passed until 2017. With these two given visualizations, 
+                                       it can help us compare how both birth and abortion rate have changed over the years, 
+                                       along with how they differ between the states. With controversy revolving around the 
+                                       passing of Roe and other factors in recent years it has caused both abortion and birth 
+                                       rates to decline in this past decade. For example, the total abortion rates in Texas in
+                                       1988 were 24.2 but decreased to 9.5 in 2017. One of the leading causes for this decrease
+                                       is Texas’s increased abortion restrictions, making it more difficult for people to access 
+                                       safe ones. Additionally, in 1988, the birth rates in Texas were 75.2 but decreased to 64.7.
+                                       This could be for multiple reasons, but the main one could be more people having access to
+                                       and using contraceptives. To add to this point, Texas’s increase in abortion restrictions
+                                       could have influenced more people to rely on and use contraceptives, therefore causing birth 
+                                       rates and abortion rates to both go down. By understanding the impacts of post-Roe through 
+                                       our data, we can use this information to justify further why access to safe abortion is 
+                                       essential and know the implications that restrictions have caused so far. Additionally,
+                                       by looking at the data and the current state of our country, we can understand how abortion
+                                       and birth rates correlate."),
                                      selectInput(inputId = "birth",
                                                  label = "Select a state for birthrate graph:",
                                                  list("AL",
