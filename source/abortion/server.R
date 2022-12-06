@@ -129,7 +129,7 @@ server <- function(input, output) {
   output$plot_birth <- renderPlotly({
     birth_graph <- ggplot(birth_data(), aes(x = year, y = birthratetotal)) + 
       geom_bar(stat = "sum") +
-      ggtitle(paste("Total Birthrates in the State:", input$birth, "(1973 - 2017)")) +
+      ggtitle(paste("Total Birthrates in the State:", input$birth)) +
       xlab("Year") +
       ylab("Birthrate")
     ggplotly(birth_graph)
@@ -138,7 +138,7 @@ server <- function(input, output) {
   output$plot_abortion <- renderPlotly({
     abortion_graph <- ggplot(abortion_data(), aes(x = year, y = abortionratetotal)) + 
       geom_bar(stat = "sum") +
-      ggtitle(paste("Total Abortion Rates in the State:", input$abortion, "(1973 - 2017)")) +
+      ggtitle(paste("Total Abortion Rates in the State:", input$abortion)) +
       xlab("Year") +
       ylab("Abortion Rate")
     

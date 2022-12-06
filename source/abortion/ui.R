@@ -612,7 +612,31 @@ final_report_page <- tabPanel("Report",
                               p("Michelle Paste!"),
                               
                               h3("Discussion"),
-                              p("Jasmine Paste!"),
+                              p("Our findings are important to gain a deeper understanding of and further 
+                                justify the importance of access to safe abortions. The passing of Roe v.
+                                Wade helped millions of individuals across the United States. There are many
+                                reasons why one may need to have an abortion, so taking away people’s rights
+                                to bodily autonomy is going to be detrimental to the lives of many. For example, 
+                                some may not be financially ready to have a child or having a child would severely
+                                impact their health. No matter what the reason is, people should have the right to
+                                their own bodies and, therefore, should be able to decide for themselves freely. 
+                                It should not be up to the states to decide for them. As mentioned previously,
+                                there is a lot of controversy around the subject of abortions, where many conservative 
+                                states were already making and pushing for stricter abortion laws before the overturn
+                                of Roe v. wade. With some states aiming to reduce access to abortions, it does not 
+                                prevent fewer abortions from happening, just decreases the number of safe ones. 
+                                To add to this point, leaving the decisions to be up to the states can put people in
+                                poverty at a much more significant disadvantage. Even with the overturn of Row v. Wade,
+                                people in poverty might not be able to access the resources they need for a safe abortion.
+                                At the same time, people who can afford the traveling expenses can get the procedure done
+                                in another state. An influence that led to the overturn of Roe v. Wade was religious
+                                conservatism, where many conservatives were influenced by their own religious belief. With 
+                                the new development of religious conservatism, we need to be careful about combining human 
+                                rights with politics. Overall, the overturn of Roe v. Wade does more damage than many people
+                                may realize. With our project and findings, we hoped to emphasize the many benefits and
+                                importance of the passing of Roe v. Wade to show and prove why it should not be overturned.
+                                Additionally, by researching and discussing the subject of abortions, we can bring awareness
+                                to and back up our reasons with reliable data."),
                               
                               h3("Conclusion"),
                               p("To conclude our project, we want to reiterate a few 
