@@ -41,11 +41,15 @@ home_page <- tabPanel("Home",
                           br(),
                           
                           h4("INFO 201 Fall 2022"),
+                          
+                          br(),
+                          br(),
+                          
+                          img(src = "ischool.png", width = "90%")
                         ),
                         
                         
                         mainPanel(
-                          br(),
                           h1("Our Mission"),
                           p("Throughout this project, our group aimed to address the 
                           effectiveness of the court case Roe v. Wade in 1973 given 
@@ -83,6 +87,7 @@ home_page <- tabPanel("Home",
                           rates due to the limited access across America, especially 
                           in abortion-restricted states."),
                           
+                          HTML('<center><img src="abortion_photo.jpg", width = "40%" ></center>'),
                         )
                       )
 )
@@ -522,7 +527,7 @@ final_report_page <- tabPanel("Report",
                               different ages. As a result, the data provided may give 
                               us insight as to what the base trends of pregnancy and 
                               abortion are and how this may change over time."),
-                              p("[table]"),
+                              img(src="table.png", height="110%", width="100%"),
                               p("Maddow-Zimet et al. (2020). Pregnancies, Births and 
                               Abortions in the United States: National and State Trends 
                               by Age [Dataset]. https://osf.io/td7mk"),
@@ -597,7 +602,8 @@ final_report_page <- tabPanel("Report",
                               p("Erica Paste!"),
                               
                               h3("Acknowledgements"),
-                              p("Paste!"),
+                              p("Thank you to Professor Winegarden and our TA, Shinji for
+                                helping us throughout the quarter!"),
                               
                               h3("References"),
                               p(em("After Roe Fell: Abortion Laws by State."), "Center 
