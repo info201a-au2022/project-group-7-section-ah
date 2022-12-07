@@ -609,7 +609,34 @@ final_report_page <- tabPanel("Report",
                                 picture of what we are trying to find."),
                               
                               h3("Findings"),
-                              p("Michelle Paste!"),
+                              p("Through this dataset, we were able to conclude that having access 
+                              to safe abortions is fundamental. Even Though the passing of Roe v. Wade 
+                              allowed more women to have access to safe abortions, we discovered that 
+                              there has been a decrease in both birthrate and abortion rates. We predict 
+                              that one of the reasons for the decrease was the greater access to contraceptives. 
+                              In addition, it was revealed that during the year  2008, the birth rate started 
+                              decreasing. This may have been due to the recession since people had fewer resources 
+                              to be able to have kids at that time. Therefore, we concluded that rates may have 
+                              declined due to economic recession and social climate."),
+                              p("While both the abortion rate and birth rate declined in the U.S, it was 
+                              revealed that pregnancy rates were higher among people in their mid to late 
+                              twenties, meaning that these rates may decrease in the future because these 
+                              pregnancies may not have been planned. High pregnancy rates among people in their 
+                              mid to late twenties reveal that these age groups have low access to abortion 
+                              because the option of abortion may not be viable in their state which may have 
+                              forced them to be pregnant with a child. By looking at how pregnancy rates have 
+                              changed through the years of different age groups, we were able to understand which 
+                              group of women are most likely to be impacted and benefit by having access to safe 
+                              abortions."),
+                              p("While it seems evident that states’ restrictions on abortion have a deep impact 
+                              on both the abortion rate and pregnancy rate, whenever a state passes a bill 
+                              that restricts abortion gets passed, the abortion rate declines which conflicts 
+                              with the previous precedent outlined by Roe v. Wade. Despite a decision of the court 
+                              that gave the right to have an abortion, the abortion rate is decreasing in all states 
+                              revealing the low accessibility of abortion. We discovered the direct relationship 
+                              between abortion restriction laws and the abortion rate. Therefore, we learned that 
+                              stricter abortion restrictions in most states facilitated the decline of the abortion 
+                              rate, creating an excessive burden for women seeking an abortion."),
                               
                               h3("Discussion"),
                               p("Our findings are important to gain a deeper understanding of and further 
